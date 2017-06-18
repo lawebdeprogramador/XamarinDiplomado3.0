@@ -1,0 +1,1 @@
+Este entrenamiento proporciona a los participantes los conocimientos necesarios para desarrollar aplicaciones multiplataforma utilizando Xamarin. 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">Localização no Android</string>
+    <string name="ButtonText">Olá Mundo, Clique-me!</string>
+    <string name="ContentHeader">Conteúdo do curso (espanhol)</string>
+    <string name="ValidateButtonText">Validar</string>
+    <string name="EmailLabelText">E-Mail:</string>
+    <string name="PasswordLabelText">Senha:</string>
+    <plurals name="numberOfClicks">
+      <item quantity="one">Há %d Clique.</item>
+      <item quantity="other">Há %d Cliques.</item>
+    </plurals>
+</resources>
