@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <Button
+        android:text="@string/Hello"
+        android:layout_width="300.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textAllCaps="false"
+        android:layout_marginLeft="25.0dp"
+        android:layout_marginRight="25.0dp"
+        android:layout_marginTop="25.0dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:text="Haz Clic en este botón"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textAllCaps="@bool/AllCaps" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Haz Clic en este otro botón" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <Button
+            android:text="@string/hazClicEnEsteOtroBotón"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" />
+    </LinearLayout>
+    <ImageButton
+        android:src="@drawable/xamarin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
