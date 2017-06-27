@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/xamarindiplomadoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewLogo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:text="Correo:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmail"
+            android:textColor="@android:color/holo_orange_dark"
+            android:gravity="right" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEmail"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:text="Password:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPassword"
+            android:textColor="@android:color/holo_orange_dark"
+            android:gravity="right" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <Button
+        android:text="Validar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonValidate"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
